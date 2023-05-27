@@ -1,0 +1,50 @@
+body {
+    background: #1B1C24;
+    margin: 0;
+}
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+.page {
+    overflow: hidden !important;
+}
+:root {
+    --font-gilroy: 'Gilroy';
+    --font-mont: 'Montserrat'
+}
+button, select, input {
+    outline: none !important;
+}
+button, input[type=submit], input[type=button] {
+    cursor: pointer !important;
+}
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.section-title.ttl2 {
+    font-weight: 700;
+    margin-top: 80px;
+}

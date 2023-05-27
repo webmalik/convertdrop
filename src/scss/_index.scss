@@ -1,0 +1,103 @@
+/* Section */
+section.free-cases {
+  padding: 0 0 20px;
+}
+section.free-cases .section__inner .title {
+  padding: 0 0 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  color: #ffffff;
+}
+section.free-cases .section__inner .cases {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 65px;
+}
+section.free-cases .section__inner .cases .case .texts .info {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 11.5px 27px;
+}
+/*  */
+section {
+  padding: 0 0 50px;
+}
+section .section__inner {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+section .section__inner .title {
+  padding: 0 0 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  color: #ffffff;
+}
+section .section__inner .cases {
+  width: 100%;
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: repeat(5, 269px);
+  justify-content: space-between;
+  row-gap: 50px;
+}
+section .section__inner .cases .case {
+  width: 269px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+section .section__inner .cases .case:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #faa060;
+  border-radius: 3px;
+}
+section .section__inner .cases .case img {
+  width: 100%;
+}
+section .section__inner .cases .case .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -50px 0 0 0;
+  gap: 5px;
+}
+section .section__inner .cases .case .texts .name {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+section .section__inner .cases .case:hover .texts .name {
+  color: #faa060;
+}
+section .section__inner .cases .case .texts .info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+  padding: 4px 21px;
+  background: #ffac71;
+  border-radius: 3px;
+}
+section .section__inner .cases .case .texts .info span {
+  font-size: 22px;
+  line-height: 25px;
+}
