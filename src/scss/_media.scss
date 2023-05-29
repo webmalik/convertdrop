@@ -547,9 +547,11 @@
 @include media-width($sm, max) {
 	footer .footer__info {
 		flex-direction: column;
+		gap: 30px;
 
 		.block {
 			text-align: center;
+			flex-direction: column-reverse;
 		}
 	}
 
@@ -709,16 +711,29 @@
 
 		&__item-center {
 			justify-content: center;
+			margin: 20px 0;
 
 			&:before,
 			&:after {
 				background-color: transparent;
+				background-repeat-y: no-repeat;
+				position: relative;
+			}	
+
+			&:before {
+				left: 1px;
+				top: 0px;
+			}
+
+			&:after {
+				right: 1px;
+				top: 0px;
 			}
 
 		}
 
 		&__skin-center {
-			//
+			max-height: 253px;
 		}
 	}
 	button.upgrate__button-upgrate {
