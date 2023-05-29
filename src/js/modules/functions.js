@@ -33,6 +33,7 @@ export function onSelectC() {
 	$('#sytem-country').on('change', function () {
 		var val = $(this).val();
 		$('.sytem__list-img img').attr('src', 'img/' + val + '.webp');
+		$('.sytem__list-img source').attr('srcset', 'img/' + val + '.webp');
 		console.log(val);
 	});
 }
