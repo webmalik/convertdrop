@@ -47,6 +47,8 @@ section .section__inner .cases {
   grid-template-columns: repeat(5, 269px);
   justify-content: space-between;
   row-gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 section .section__inner .cases .case {
   width: 269px;
@@ -55,6 +57,8 @@ section .section__inner .cases .case {
   position: relative;
   padding-bottom: 20px;
   cursor: pointer;
+	max-width: 220px;
+	margin: 0 auto;
 }
 section .section__inner .cases .case:hover::after {
   content: "";
