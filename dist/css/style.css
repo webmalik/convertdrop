@@ -1218,14 +1218,22 @@ section .section__inner .cases .case {
   margin: 0 auto;
 }
 
-section .section__inner .cases .case:hover::after {
+section .section__inner .cases .case::after {
   content: "";
   position: absolute;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0%;
   height: 2px;
   background: #faa060;
   border-radius: 3px;
+  transition: all 0.5s;
+}
+
+section .section__inner .cases .case:hover::after {
+  width: 100%;
 }
 
 section .section__inner .cases .case img {
