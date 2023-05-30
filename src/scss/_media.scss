@@ -691,24 +691,6 @@
 			}
 		}
 
-		// &__item {
-		// 	&:before {
-		// 		background-image: url('@img/left_upg_b.svg');
-		// 	}
-		
-		// 	&:after {
-		// 		background-image: url('@img/right_upg_b.svg');
-		// 	}
-		
-		// 	&:before,
-		// 	&:after {
-		// 		content: '';
-		// 		display: block;
-		// 		min-width: 139px;
-		// 		min-height: 227px;
-		// 	}
-		// }
-
 		&__item-center {
 			justify-content: center;
 			margin: 20px 0;

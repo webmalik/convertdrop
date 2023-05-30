@@ -1,6 +1,7 @@
 //import Siema from "siema";
 import $ from "jquery";
 import Swiper from 'swiper/bundle';
+import Aos from "aos";
 
 export function isWebp() {
 	function testWebP(callback) {
@@ -36,6 +37,10 @@ export function onSelectC() {
 		$('.sytem__list-img source').attr('srcset', 'img/' + val + '.webp');
 		console.log(val);
 	});
+}
+
+export function aos_js() {
+	Aos.init();
 }
 
 export function burger() {

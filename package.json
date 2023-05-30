@@ -14,6 +14,7 @@
 	"author": "WebMaLik",
 	"license": "ISC",
 	"devDependencies": {
+		"aos": "^2.3.4",
 		"browser-sync": "latest",
 		"del": "latest",
 		"fs": "latest",

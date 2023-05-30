@@ -7,3 +7,4 @@ wmFunctions.onCard();
 wmFunctions.onSelectC();
 wmFunctions.burger();
 wmFunctions.slider();
+wmFunctions.aos_js();

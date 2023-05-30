@@ -29,6 +29,9 @@ section .cases .bg-case {
 section .cases .bg-case img {
 	position: absolute;
 	top: 37px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
 
 section .cases .bg-case .info {
