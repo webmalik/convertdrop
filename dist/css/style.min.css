@@ -2182,6 +2182,8 @@ button.upgrate__button-upgrate {
   justify-content: center;
   background-color: #22232F;
   padding-bottom: 68px;
+  padding-left: 20px;
+  padding-right: 20px;
   flex: 1 1 auto;
 }
 .upgrate__invent-body img {
@@ -2210,8 +2212,14 @@ button.upgrate__button-upgrate {
   border: 1px solid transparent;
   cursor: pointer;
 }
-.upgrate__invent-body > .upgrate__invent-items .item:hover, .upgrate__invent-body > .upgrate__invent-items .item:active, .upgrate__invent-body > .upgrate__invent-items .item.active {
-  border: 1px solid #BD3B3B;
+.upgrate__invent-body > .upgrate__invent-items .item:hover {
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+}
+.upgrate__invent-body > .upgrate__invent-items .item:active,
+.upgrate__invent-body > .upgrate__invent-items .item .active {
+  transform: scale(0.95);
+  transition-duration: 0.3s;
 }
 .upgrate__invent-body > .upgrate__invent-items .item:before {
   content: "";
