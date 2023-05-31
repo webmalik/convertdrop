@@ -7,7 +7,7 @@ body {
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 50px;
 }
 
 *,
@@ -2682,6 +2682,7 @@ section .content .item .active {
 @media (max-width: 1400px) {
   .container {
     max-width: 1400px;
+    padding: 0 50px;
   }
 
   section .section__inner .cases {

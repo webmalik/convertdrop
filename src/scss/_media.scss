@@ -3,16 +3,20 @@
 @include media-width($xl, 'max') {
 	.container {
 		max-width: $xl;
+		padding: 0 50px;
 	}
 }
 @include media-width($lg, 'max') {
 	.container {
 		max-width: $lg;
+		//padding: 0 30px;
+		//padding: 0 100px;
 	}
 }
 @include media-width($md, 'max') {
 	.container {
 		max-width: $md;
+		//padding: 0 15px;
 	}
 }
 @include media-width($sm, 'max') {
